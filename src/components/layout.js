@@ -56,7 +56,7 @@ const SidebarRenderer = ({
           <SidebarReset>
             <SidebarScroll>
               <ScrollbarHeader>
-                <SidebarIcon src={favicon} alt="Monzo" />
+                <SidebarIcon src={favicon} alt="SPOC" />
                 <FlexboxPush>
                   <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
                 </FlexboxPush>

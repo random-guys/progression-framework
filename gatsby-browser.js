@@ -2,9 +2,9 @@ const ReactGA = require('react-ga')
 
 ReactGA.initialize('UA-63104269-2')
 ReactGA.set({
-  appName: 'Progression at Monzo'
+  appName: 'Progression at SPOC',
 })
 
-exports.onRouteUpdate = (state) => {
+exports.onRouteUpdate = state => {
   ReactGA.pageview(state.location.pathname)
 }
