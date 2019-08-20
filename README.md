@@ -1,15 +1,15 @@
 <p align="center">
-  <a href="https://www.monzo.com">
-    <img alt="Monzo favicon" src="https://d33wubrfki0l68.cloudfront.net/673084cc885831461ab2cdd1151ad577cda6a49a/92a4d/static/images/favicon.png" width="60" />
+  <a href="https://product-org-progression.netlify.com">
+    <img alt="SPOC favicon" src="https://res.cloudinary.com/dfsayl1xs/image/upload/v1566319235/progression-framework/favicon-a763e636729f8957f2241359e918e9f3_opwao3.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-    Progression at Monzo
+    Progression at Sterling Product Org
 </h1>
 
-🎉 Welcome to the Progression at Monzo repository
+🎉 Welcome to the Progression at Sterling Product Org repository
 
-This is where all of Monzo's progression frameworks live, as well as the site that powers `progression.monzo.com` 💪
+This is where all of SPOC's progression frameworks live, as well as the site that powers `product-org-progression.netlify.com"` 💪
 
 **Get stuck? There's a glossary at the bottom of this readme!**
 
@@ -23,7 +23,7 @@ We mainly use GitHub in Engineering, as it allows engineers to review each other
 
 We're using GitHub to store our progression frameworks for a few reasons:
 - It's public (or open source), meaning we can share this with the community and allow them to contribute!
-- Monzonauts can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
+- SPOC members can "own" or manage a framework (or frameworks), meaning they get to control any changes or additions in that area
 - It means we can build a super fast site 🚀
 
 ## ❔ How does this work?
@@ -33,11 +33,10 @@ This is the structure of our repo
 progression-framework/
     frameworks/
     src/
-    CODEOWNERS
     [a bunch of config files]
 ```
 
-`site` contains our website files, `frameworks` contains our progression framework files, and `CODEOWNERS` is the file that defines who owns or manages a framework, file or folder.
+`site` contains our website files and `frameworks` contains our progression framework files.
 All the other files are configuration, which you should totally ignore 👌
 
 **The `frameworks` folder is what you want to pay attention to!**
@@ -91,7 +90,7 @@ topics:
         criteria:
           - "Follows policies and procedures applicable to role. Completes training."
           - "Accepts feedback graciously and acts on it. Gives feedback when requested"
-          - "Builds relationships within monzo and contributes to building a supportive, knowledgable and engaged peer group"
+          - "Builds relationships within SPOC and contributes to building a supportive, knowledgable and engaged peer group"
         exampleCriteria:
           -  criteria: "A criteria with an example point goes here"
              examples:
@@ -110,7 +109,7 @@ You can also add examples, by putting them in the `exampleCriteria` object, defi
 
 ---
 
-If you need any help and are a Monzonaut, ping @lucas a message or put a message in #org-scaling. Otherwise, feel free to raise an issue here in GitHub.
+If you need any help, feel free to raise an issue here in GitHub.
 
 ## ✏️ How do I edit a framework?
 
@@ -125,7 +124,7 @@ This will automatically save your changes and open a pull request, allowing the 
 
 **Repository (Repo)**: A folder in GitHub where files live
 
-*If you've seen the word 'repo', we're probably talking about the Progression Framework folder in GitHub that you're on right now (https://github.com/monzo/progression-framework)*
+*If you've seen the word 'repo', we're probably talking about the Progression Framework folder in GitHub that you're on right now (https://github.com/random-guys/progression-framework)*
 
 **Pull Request (PR)**: A request to change a file, or multiple files on GitHub
 
@@ -137,4 +136,4 @@ This will automatically save your changes and open a pull request, allowing the 
 
 
 ### 🤓 Looking for technical documentation?
-Take a look at the readme in the `src/` directory (https://github.com/monzo/progression-framework/blob/master/src/README.md)
+Take a look at the readme in the `src/` directory (https://github.com/random-guys/progression-framework/blob/master/src/README.md)
