@@ -1,7 +1,7 @@
 ---
 path: "/frameworks/people"
-title: "🙂 People"
-sidebarTitle: "🙂 People"
+title: "👭 People"
+sidebarTitle: "👭 People"
 sidebarGroup:
 yaml: true
 levels: 6
