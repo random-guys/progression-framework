@@ -39,7 +39,7 @@ const ToolbarRenderer = ({ sidebarClickHandler, isSidebarVisible }: Object) =>
     <Toolbar className={isSidebarVisible ? 'visible' : null}>
       <MenuIcon onClick={sidebarClickHandler} src={menuIcon} />
       <ToolbarPushWrapper>
-        <ToolbarIcon src={favicon} alt="Monzo" />
+        <ToolbarIcon src={favicon} alt="SPOC" />
       </ToolbarPushWrapper>
     </Toolbar>
   )

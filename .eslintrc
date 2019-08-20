@@ -1,5 +1,3 @@
-// Similar to our web-projects eslint config file at https://github.com/monzo/web-projects/eslintConfig.js
-
 {
   "parser": "babel-eslint",
   "extends": [
