@@ -1,7 +1,7 @@
 ---
 path: "/product"
-title: "🚀 Product Framework"
-sidebarTitle: "🚀 Product"
+title: "💻 Product Framework"
+sidebarTitle: "💻 Product"
 sidebarGroup:
 yaml: true
 levels: 4
