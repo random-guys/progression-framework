@@ -2,7 +2,8 @@
 import * as React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import LowFundsAnimation from '../components/animations/lowFunds'
+import logo from '../images/favicon.png'
+// import LowFundsAnimation from '../components/animations/lowFunds'
 import {
   ErrorPageLink,
   ErrorPageHeader,
@@ -35,7 +36,10 @@ export default class Frameworks extends React.Component<Props> {
                 </ErrorPageLink>
               </div>
               <div className="grid-col-12 grid-col-4-md">
-                <LowFundsAnimation />
+                {/* <LowFundsAnimation /> */}
+                <img src={logo} 
+              alt="spoc logo" 
+              style={{"width": "5rem", "height" : "5rem" }} />
               </div>
             </div>
           </div>
