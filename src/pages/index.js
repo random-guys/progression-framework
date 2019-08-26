@@ -1,8 +1,11 @@
 // @flow
 import * as React from 'react'
 import { graphql } from 'gatsby'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faSteam } from '@fortawesome/free-brands-svg-icons'
+import logo from '../images/favicon.png'
 import Layout from '../components/layout'
 import {
   Subtitle,
@@ -13,6 +16,8 @@ import {
   DescriptionTitleGroup,
 } from '../components/styles'
 import '../css/main.min.css'
+
+library.add(faThumbsUp)
 
 type Props = {
   data: Object,
@@ -25,7 +30,13 @@ export default class Index extends React.Component<Props> {
         <DescriptionView>
           <DescriptionTitleGroup>
             <Subtitle>Welcome To</Subtitle>
-            <Title>Sterling Product Organization Company (SPOC) 🎉</Title>
+            <Title>Sterling Product Organization Company (SPOC) 
+            <span>
+              <img src={logo} 
+              alt="spoc logo" 
+              style={{"width": "2rem", "height" : "2rem" }} />
+              </span>
+            </Title>
           </DescriptionTitleGroup>
           <Description>
             <DescriptionText>
@@ -59,7 +70,8 @@ export default class Index extends React.Component<Props> {
               </a>
             </DescriptionText>
             <DescriptionText>
-              Take a look around and let us know what you think! 🚀
+              Take a look around and let us know what you think! 
+              <FontAwesomeIcon icon={faThumbsUp} style={{ "color":  "red" }} />
             </DescriptionText>
           </Description>
         </DescriptionView>

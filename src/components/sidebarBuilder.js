@@ -1,6 +1,8 @@
 // @flow
 import React from 'react'
 import toTitleCase from '../utils/toTitleCase'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDna, faHome } from '@fortawesome/free-solid-svg-icons'
 import {
   EmojiListItem,
   StyledLink,
@@ -141,13 +143,17 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
               to="/"
               state={{ openedTopics }}
             >
-              <EmojiListItem>🏠</EmojiListItem>
+              <EmojiListItem>
+                <FontAwesomeIcon icon={faHome} style={{ "color": "red" }} />
+              </EmojiListItem>
               Home
             </DefaultStyledLink>
           </ListElement>
           <ListElement key={Math.random()}>
             <StyledLink to="/generic" state={{ openedTopics }}>
-              <EmojiListItem>📄</EmojiListItem>
+              <EmojiListItem>
+                <FontAwesomeIcon icon={faDna} style={{ "color": "red" }} />
+              </EmojiListItem>
               Generic
             </StyledLink>
           </ListElement>
@@ -155,28 +161,28 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
         <SidebarPaddingSection borderedTop>
           {frameworkElement.map(element =>
             Object.keys(element)[0] == null ||
-            Object.keys(element)[0] === 'null' ? (
-              <React.Fragment key={Math.random()}>
-                {Object.keys(element).map(key => element[key])[0]}
-              </React.Fragment>
-            ) : null,
+              Object.keys(element)[0] === 'null' ? (
+                <React.Fragment key={Math.random()}>
+                  {Object.keys(element).map(key => element[key])[0]}
+                </React.Fragment>
+              ) : null,
           )}
         </SidebarPaddingSection>
         {frameworkElement.map(element =>
           Object.keys(element)[0] != null &&
-          Object.keys(element)[0] !== 'null' ? (
-            <SidebarPaddingSection top key={Object.keys(element)[0]}>
-              <SidebarSection
-                name={Object.keys(element)[0]}
-                handleToggle={this.toggledTopicHandler}
-                openedTopics={openedTopics}
-              >
-                <SidebarList>
-                  {Object.keys(element).map(key => element[key])[0]}
-                </SidebarList>
-              </SidebarSection>
-            </SidebarPaddingSection>
-          ) : null,
+            Object.keys(element)[0] !== 'null' ? (
+              <SidebarPaddingSection top key={Object.keys(element)[0]}>
+                <SidebarSection
+                  name={Object.keys(element)[0]}
+                  handleToggle={this.toggledTopicHandler}
+                  openedTopics={openedTopics}
+                >
+                  <SidebarList>
+                    {Object.keys(element).map(key => element[key])[0]}
+                  </SidebarList>
+                </SidebarSection>
+              </SidebarPaddingSection>
+            ) : null,
         )}
       </React.Fragment>
     )
