@@ -143,16 +143,16 @@ class SidebarBuilder extends React.Component<SidebarProps, SidebarState> {
               to="/"
               state={{ openedTopics }}
             >
-              <EmojiListItem>
-                <FontAwesomeIcon icon={faHome} style={{ "color": "red" }} />
+              <EmojiListItem>🏠
+                {/* <FontAwesomeIcon icon={faHome} style={{ "color": "red" }} /> */}
               </EmojiListItem>
               Home
             </DefaultStyledLink>
           </ListElement>
           <ListElement key={Math.random()}>
             <StyledLink to="/generic" state={{ openedTopics }}>
-              <EmojiListItem>
-                <FontAwesomeIcon icon={faDna} style={{ "color": "red" }} />
+              <EmojiListItem>➰
+                {/* <FontAwesomeIcon icon={faDna} style={{ "color": "red" }} /> */}
               </EmojiListItem>
               Generic
             </StyledLink>
