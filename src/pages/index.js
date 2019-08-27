@@ -71,7 +71,7 @@ export default class Index extends React.Component<Props> {
             </DescriptionText>
             <DescriptionText>
               Take a look around and let us know what you think! 
-              <FontAwesomeIcon icon={faThumbsUp} style={{ "color":  "red" }} />
+              <FontAwesomeIcon icon={faThumbsUp} style={{ "color":  "#00A0D6", "marginLeft": "0.5rem" }} />
             </DescriptionText>
           </Description>
         </DescriptionView>
