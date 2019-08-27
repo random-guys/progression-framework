@@ -8,7 +8,7 @@ levels: 4
 homepage: false
 topics:
   - name: "communications-knowledge"
-    title: "💡 Knowledge"
+    title: "🧠 Knowledge"
     content:
       - level: 1
         criteria:

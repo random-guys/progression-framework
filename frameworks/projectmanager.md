@@ -48,7 +48,7 @@ topics:
         criteria:
           - "An effective and inspiring communicator within and outside project team."
   - name: "project-knowledge"
-    title: "💡 Knowledge"
+    title: "🧠 Knowledge"
     content:
       - level: 1
         criteria:

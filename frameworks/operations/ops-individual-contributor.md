@@ -1,14 +1,14 @@
 ---
 path: "/operations/ops-individual-contributor"
-title: "🙋‍♀️️️ Ops Individual Contributor Framework"
-sidebarTitle: "🙋‍♀️ Individual Contributor"
+title: "🧗 Ops Individual Contributor Framework"
+sidebarTitle: "🧗 Individual Contributor"
 sidebarGroup: "operations"
 yaml: true
 levels: 5
 homepage: false
 topics:
   - name: "communication and teamwork"
-    title: "💬 Communication and Teamwork"
+    title: "📶 Communication and Teamwork"
     content:
       - level: 1
         criteria:

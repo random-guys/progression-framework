@@ -60,7 +60,7 @@ topics:
         criteria:
           - "Is the accountable exec for high-impact projects"
   - name: "communication"
-    title: "💬 Communication"
+    title: "📶 Communication"
     content:
       - level: 1
         criteria:
@@ -84,7 +84,7 @@ topics:
         criteria:
           - "An effective and inspiring communicator internally and externally"
   - name: "teamwork"
-    title: "🤝 Teamwork"
+    title: "🔗 Teamwork"
     content:
       - level: 1
         criteria:
@@ -121,7 +121,7 @@ topics:
           - "You own your area’s structure"
           - "Strong leadership and coaching abilities"
   - name: "conduct"
-    title: "👩‍💻 Conduct"
+    title: "📷 Conduct"
     content:
       - level: 1
         criteria:

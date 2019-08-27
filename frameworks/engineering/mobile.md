@@ -1,7 +1,7 @@
 ---
 path: "/engineering/mobile"
-title: "👩‍💻 Mobile Engineering Framework"
-sidebarTitle: "👩‍💻 Mobile"
+title: "📱 Mobile Engineering Framework"
+sidebarTitle: "📱 Mobile"
 sidebarGroup: "engineering"
 yaml: true
 levels: 6

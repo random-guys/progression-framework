@@ -8,7 +8,7 @@ levels: 5
 homepage: false
 topics:
   - name: "communication"
-    title: "💬 Communication"
+    title: "📶 Communication"
     content:
       - level: 1
         criteria:
@@ -87,7 +87,7 @@ topics:
           - "Wide breadth of knowledge"
           - "Can easily context switch within their area and pick up new concepts"
   - name: "conduct"
-    title: "👩‍💻 Conduct"
+    title: "📷 Conduct"
     content:
       - level: 1
         criteria:
@@ -160,7 +160,7 @@ topics:
           - "Helps prioritise and balance short-term and long-term investments, focusing on high impact, high value work"
           - "Understands the big picture and integrates company goals into their area"
   - name: "influence"
-    title: "🕺 Influence"
+    title: "✨ Influence"
     content:
       - level: 1
         criteria:
@@ -191,7 +191,7 @@ topics:
           - "Proactively shares knowledge internally"
           - "Acts as the 'sole proprietor', in the CEO mindset, their ego/agenda is not a factor in their thinking or decision making"
   - name: "leadership"
-    title: "👨‍🏫 Leadership"
+    title: "👑 Leadership"
     content:
       - level: 3
         criteria:

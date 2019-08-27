@@ -8,7 +8,7 @@ levels: 6
 homepage: false
 topics:
   - name: "operations-knowledge"
-    title: "💡 Knowledge"
+    title: "🧠 Knowledge"
     content:
       - level: 1
         criteria:

@@ -1,7 +1,7 @@
 ---
 path: "/operations/ops-leadership"
-title: "🎯 Ops Leadership Framework"
-sidebarTitle: "🎯 Leadership"
+title: "👑 Ops Leadership Framework"
+sidebarTitle: "👑 Leadership"
 sidebarGroup: "operations"
 yaml: true
 levels: 5

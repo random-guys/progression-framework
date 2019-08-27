@@ -1,7 +1,7 @@
 ---
 path: "/engineering/backend"
-title: "🛠️ Backend Engineering Framework"
-sidebarTitle: "🛠️ Backend"
+title: "⌨️ Backend Engineering Framework"
+sidebarTitle: "⌨️ Backend"
 sidebarGroup: "engineering"
 yaml: true
 levels: 6
@@ -90,7 +90,7 @@ topics:
           - "Accountable for delivery of large, mission critical engineering projects"
           - "Originates or finishes large, horizontal engineering efforts"
   - name: "leadership"
-    title: "👩‍💼 Leadership"
+    title: "👑 Leadership"
     content:
       - level: 3
         criteria:

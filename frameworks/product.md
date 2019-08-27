@@ -8,7 +8,7 @@ levels: 4
 homepage: false
 topics:
   - name: "problem solving"
-    title: "🧠 Problem solving"
+    title: "💡 Problem solving"
     content:
       - level: 1
         criteria:
@@ -34,7 +34,7 @@ topics:
           - "Successfully leads initiatives with high levels of uncertainty, from discovery to successful adoption or retirement."
           - "Brings structure, clarity and new insights to ambiguous or complex problems. Can often find ways to make it possible to ‘do both’ by reframing problem or approach."
   - name: "user-centricity"
-    title: "🙍 User-centricity"
+    title: "👥 User-centricity"
     content:
       - level: 1
         criteria:
@@ -54,7 +54,7 @@ topics:
           - "Is a champion for user experience and starting with user needs - helps senior stakeholders and team members to understand the value of this approach."
           - "Can balance trade offs (or think creatively to increase the pie) between user need and business need."
   - name: "data skills"
-    title: "👨‍💻 Data Skills"
+    title: "🗂️ Data Skills"
     content:
       - level: 1
         criteria:
@@ -74,7 +74,7 @@ topics:
           - "Makes data-driven decisions based on a multitude of complex, interdependent factors."
           - "Can design and evaluate experiments, based on solid hypotheses. Proactively alters course when confidence of hitting goals is low."
   - name: "domain knowledge"
-    title: "💭 Domain Knowledge"
+    title: "🧠 Knowledge"
     content:
       - level: 1
         criteria:
@@ -112,7 +112,7 @@ topics:
         criteria:
           - "Creates frameworks that aid decision making and prioritisation."
   - name: "works through others"
-    title: "🤝 Works Through Others"
+    title: "🔗 Works Through Others"
     content:
       - level: 1
         criteria:
@@ -134,7 +134,7 @@ topics:
           - "Understands how the needs of the team vary across product and team lifecycle and adapts accordingly."
           - "Open to being challenged, encourages constructive conflict and maximises the talent of others. Makes the squad “missionaries, not mercenaries”."
   - name: "feedback"
-    title: "👪 Communication and Feedback"
+    title: "📶 Communication"
     content:
       - level: 1
         criteria:
