@@ -5,7 +5,7 @@ sidebarTitle: "📡 Comm's"
 sidebarGroup:
 yaml: true
 levels: 4
-homepage: false
+homepage: true
 topics:
   - name: "communications-knowledge"
     title: "🧠 Knowledge"
@@ -98,3 +98,13 @@ topics:
           - "Can stand-in as decision maker based on knowledge of expectations and policies."
           - "Uses their knowledge of the internal and external environment to develop strategy and internal policy. Applies creative analysis and spots ways to fix things that aren't working."
 ---
+### About our communications progression frameworks
+The communications progression framework is a tool that helps content and comms:
+- Make development and career plans
+- Track personal and professional development
+- Talk about progress in a consistent way
+- Set a fair level of compensation.
+
+### How does it work?
+
+The framework covers all the things we’re looking for from the content and communications team. The framework is split into 4 sections, all of which detail a progress guide for the communications team:
