@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faSteam } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import logo from '../images/favicon.png'
 import Layout from '../components/layout'
 import {

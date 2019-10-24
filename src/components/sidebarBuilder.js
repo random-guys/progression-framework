@@ -1,8 +1,6 @@
 // @flow
 import React from 'react'
 import toTitleCase from '../utils/toTitleCase'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDna, faHome } from '@fortawesome/free-solid-svg-icons'
 import {
   EmojiListItem,
   StyledLink,
