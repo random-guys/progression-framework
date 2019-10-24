@@ -1,7 +1,7 @@
 ---
 path: "/operations"
 title: "🎡 Operations Framework"
-sidebarTitle: "🎡 Operations"
+sidebarTitle: ""
 sidebarGroup:
 yaml: true
 levels: 6
